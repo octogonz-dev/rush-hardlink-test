@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+pnpmfileChecksum: sha256-La8sfCMI7irxJPTW6u4mJb4vNiyLrXeEbKaXv5G3dL0=
+
+importers:
+
+  .: {}
+
+  ../../../subspace2/s2-b:
+    dependencies:
+      pnpm:
+        specifier: 10.22.0
+        version: 10.22.0
+
+  ../../../subspace2/s2-c:
+    dependencies:
+      pnpm:
+        specifier: 10.22.0
+        version: 10.22.0
+
+packages:
+
+  pnpm@10.22.0:
+    resolution: {integrity: sha512-vwSe/plbKPUn/StBrgR0zikYb37cs79UUIe9Yfu+uyv3U2LRMH/aCcLSiOHkmXh6wS1Py2F6l0cYpgUfLu50HA==}
+    engines: {node: '>=18.12'}
+    hasBin: true
+
+snapshots:
+
+  pnpm@10.22.0: {}
